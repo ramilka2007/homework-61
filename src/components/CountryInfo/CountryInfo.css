@@ -1,0 +1,22 @@
+.infoAboutCountry {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  text-align: left;
+}
+
+.flag {
+  width: 300px;
+  height: 180px;
+}
+
+.borders {
+  text-align: left;
+}
+
+.borders li {
+  font-size: 20px;
+  font-weight: bold;
+}

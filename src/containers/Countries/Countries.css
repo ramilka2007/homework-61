@@ -1,11 +1,18 @@
 .row {
   display: flex;
+  gap: 80px;
   justify-content: space-between;
 }
 
 .countries {
-  border: 1px solid #000;
+  border: 4px solid #000;
   width: 400px;
   height: 800px;
   overflow: auto;
+}
+
+.countryInfo {
+  width: 800px;
+  padding: 30px;
+  border: 4px solid #000;
 }

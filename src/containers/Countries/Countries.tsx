@@ -9,14 +9,13 @@ import './Countries.css';
 const Countries = () => {
   const [countries, setCountries] = React.useState<CountryNameType[]>([]);
   const [selectedCountry, setSelectedCountry] = React.useState<string | null>(
-    '',
+    null,
   );
 
   const fetchCountries = useCallback(async () => {
     const { data: countries } = await axios.get<CountryNameType[]>(
       REST_COUNTRIES_URL + COUNTRY_NAME_URL,
     );
-    console.log(countries);
 
     const promises = countries.map((country: CountryNameType) => {
       return {
