@@ -1,4 +1,4 @@
 export interface CountryNameType {
-  id: string;
+  alpha3Code: string;
   name: string;
 }

@@ -4,7 +4,7 @@ import Countries from './containers/Countries/Countries';
 const App = () => {
   return (
     <>
-      <Countries/>
+      <Countries />
     </>
   );
 };

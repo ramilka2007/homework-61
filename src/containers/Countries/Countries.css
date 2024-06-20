@@ -1,0 +1,11 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.countries {
+  border: 1px solid #000;
+  width: 400px;
+  height: 800px;
+  overflow: auto;
+}
